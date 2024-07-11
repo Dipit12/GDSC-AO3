@@ -1,0 +1,9 @@
+Name: libecpg_compat
+Description: PostgreSQL libecpg_compat library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: libecpg libpgtypes
+Cflags: -I/Users/dipitmadan/Documents/GDSC-AO3/env/include
+Libs: -L/Users/dipitmadan/Documents/GDSC-AO3/env/lib -lecpg_compat
+Libs.private: -L/Users/dipitmadan/Documents/GDSC-AO3/env/lib -lpgcommon -lpgport -lpq -lm
